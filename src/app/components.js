@@ -1,4 +1,4 @@
 'use strict'
 
-angular.module('angular-seed-template.components', [])
+angular.module('ng-seed-template.components', [])
     // All directives here

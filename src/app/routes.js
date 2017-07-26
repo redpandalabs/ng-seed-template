@@ -1,5 +1,5 @@
 'use strict'
-angular.module('angular-seed-template.routes', ['ngRoute'])
+angular.module('ng-seed-template.routes', ['ngRoute'])
     .config(function($routeProvider) {
         $routeProvider
             .when('/dashboard', {

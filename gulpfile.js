@@ -78,7 +78,7 @@ gulp.task('concat-templates', function() {
     return gulp.src('src/app/templates/**/*.html')
         .pipe(templateCache('templates.js', {
             root: 'app/templates',
-            module: 'angular-seed-template'
+            module: 'ng-seed-template'
         }))
         .pipe(gulp.dest('src'))
 })
@@ -134,9 +134,9 @@ gulp.task('serve', ['watch'], function() {
 
     gulp.src('src')
         .pipe(webserver({
-            port: 8081,
+            port: 8000,
             host: 'localhost',
-            open: 'http://localhost:8081/app.html',
+            open: 'http://localhost:8000/app.html',
             livereload: {
                 enable: true,
                 filter: function(fileName) {

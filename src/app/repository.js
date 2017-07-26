@@ -11,7 +11,7 @@ function makeRepository(_, $http, url, rpcMethods) {
     }, rpcMethods))
 }
 
-angular.module('angular-seed-template.repository', [])
+angular.module('ng-seed-template.repository', [])
     .factory('VolatileStorage', function($window) {
         return {
             set: function(key, value) {
