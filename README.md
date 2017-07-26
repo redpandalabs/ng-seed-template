@@ -1,2 +1,4 @@
-# ng-seed-template
-Angular 1.x seed template along with Gulp
+Steps :-
+
+1.npm run setup
+2.npm start

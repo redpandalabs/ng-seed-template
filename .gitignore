@@ -1,0 +1,22 @@
+#generated files
+src/css/lib.css
+
+node_modules
+npm-debug.log.*
+.DS_store
+.idea/*
+tags
+*.iml
+
+app.js
+app.js.gz
+app.js.map
+lib.js
+lib.js.gz
+lib.js.map
+app.css
+templates.js
+templates.js.gz
+.tern-project
+*.css.gz
+npm-debug.log
